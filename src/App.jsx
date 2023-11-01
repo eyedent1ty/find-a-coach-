@@ -1,3 +1,7 @@
-export default function App() {
-  return <h1>Hello World</h1>;
+import Navbar from './components/Navbar/Navbar';
+
+function App() {
+  return <Navbar />;
 }
+
+export default App;
