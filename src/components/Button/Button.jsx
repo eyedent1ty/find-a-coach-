@@ -1,9 +1,11 @@
-function Button({ children, onClick, link, href }) {
+import { Link } from "react-router-dom";
+
+function Button({ children, onClick, link, to }) {
   if (link) {
     return (
-      <a className="text-white bg-black py-3 px-8 rounded" href={href}>
+      <Link to={to} className="text-white bg-black py-3 px-8 rounded">
         {children}
-      </a>
+      </Link>
     );
   }
 

@@ -1,4 +1,4 @@
-import CoachesItem from './CoachesItem';
+import CoachesItem from "./CoachesItem";
 
 const coaches = [
   {

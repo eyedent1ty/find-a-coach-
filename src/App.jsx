@@ -1,12 +1,11 @@
 import Navbar from './components/Navbar/Navbar';
-import { RouterProvider } from 'react-router-dom';
-import router from './router';
+import CoachesList from './components/Coaches/CoachesList';
 
 function App() {
   return (
     <main className="space-y-20">
       <Navbar />
-      <RouterProvider router={router} />
+      <CoachesList />
     </main>
   );
 }

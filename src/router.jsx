@@ -1,10 +1,14 @@
 import { createBrowserRouter } from 'react-router-dom';
-import CoachesList from './components/Coaches/CoachesList';
+import App from './App';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <CoachesList />
+    element: <App />
+  },
+  {
+    path: '/coaches',
+    element: <App />
   }
 ]);
 
