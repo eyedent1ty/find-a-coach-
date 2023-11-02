@@ -32,7 +32,7 @@ function Navbar({ plain }) {
             </Button>
           </li>
           <li>
-            <Button link to="/login">
+            <Button link to="/auth">
               Login
             </Button>
           </li>
